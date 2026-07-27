@@ -1,0 +1,26 @@
+ul {
+  font-family: sans-serif;
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 5px;
+}
+
+.links-list a {
+  background-color: rgb(57, 179, 163);
+  color: white;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.links-list a:hover {
+  background-color: rgb(2, 49, 52);
+  color: white;
+}
+
+#ingredients {
+    display: block;
+    list-style: circle;
+}
